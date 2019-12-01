@@ -1,0 +1,145 @@
+.button-wrapper .btn {
+    margin-bottom:5px;
+}
+
+.button-overflow {
+	margin-bottom:4px;
+	white-space: normal;
+}
+
+.center-text {
+  text-align:center;
+}
+
+.basic-container {
+  background-color:#f1f7fc;
+}
+
+.admin-panel {
+  padding-top:15px;
+}
+
+.center-text-align {
+  text-align:center;
+}
+
+.panel-item-icon {
+  padding-top:15px;
+  font-size:70px;
+  padding-bottom:15px;
+  color:rgb(97,151,214);
+}
+
+.no-round-button {
+  border-radius:0px;
+}
+
+.header-padding {
+  padding-bottom:15px;
+}
+
+.row-panel-item {
+  padding-bottom:30px;
+}
+
+.panel-item {
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+  margin:30px;
+}
+
+.panel-item-button {
+  margin-bottom:10px;
+}
+
+.panel-item-btn-container {
+  margin-top:30px;
+}
+
+.center-column {
+  margin:auto;
+}
+
+.insert-row-padding {
+  margin-top:30px;
+}
+
+.box-shadow {
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.long-v-spacing {
+  margin-top:30px;
+}
+
+.panel-table .card-body {
+  padding:0px;
+}
+
+.panel-table .card-body .table-bordered {
+  border-style:none;
+  margin:0;
+}
+
+.panel-table .card-body .table-bordered > thead > tr > th:first-of-type {
+  text-align:center;
+  width:100px;
+}
+
+.panel-table .card-body .table-bordered > thead > tr > th:last-of-type, .panel-table .card-body .table-bordered > tbody > tr > td:last-of-type {
+  border-right:0px;
+}
+
+.panel-table .card-body .table-bordered > thead > tr > th:first-of-type, .panel-table .card-body .table-bordered > tbody > tr > td:first-of-type {
+  border-left:0px;
+}
+
+.panel-table .card-body .table-bordered > tbody > tr:first-of-type > td {
+  border-bottom:0px;
+}
+
+.panel-table .card-body .table-bordered > thead > tr:first-of-type > th {
+  border-top:0px;
+}
+
+.table-row-space {
+  margin-top:50px;
+}
+
+.row-id-style {
+  max-width:100px;
+}
+
+.card-long-v-space {
+  margin-top:30px;
+}
+
+.small-vspace {
+  margin-top:7px;
+}
+
+#tabla1{ 
+   border: 1px solid #1E679A; 
+   width: 1000px; 
+   align-self: center;
+   margin: 1em ; 
+} 
+#cabtab1{ 
+   background-color: #1E679A; 
+   font-weight: bold; 
+   color: #ffffff; 
+   padding: 2 2 2 2px; 
+} 
+#cuerpotab1{ 
+   padding: 40 40 40 40px; 
+   background-color: #ffffcc; 
+}
+
+#butenten{
+  align-self: center;
+  padding: 10px;
+  color: black;
+  margin: 0.25em ;
+
+}
+
+

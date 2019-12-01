@@ -1,0 +1,42 @@
+<style>
+body {
+	font-family: arial; 
+}
+
+#inline
+{
+	height:auto;
+	display:flex;
+}
+	
+.one,.two
+{
+	width:50%;
+	height:auto;
+}
+
+
+</style>
+
+<body>
+	<h2 style="text-align: center;">Bufete Ciber Abogados</h2>
+	<h2 style="text-align: center;">Unidad de casos legales</h2>
+	<br />
+	<h3 style="text-align: center;"><?php echo $nombre_informe;?></h3>
+	<h3>Fecha generación: <u><?php echo $fecha_generacion;?></u></h3>
+	<table border="0">
+		<tr>
+			<td style="padding-right: 50px">
+				<h3>Desde: <u><?php echo $fecha_inicio;?></u></h3>
+			</td>
+			<td>
+				<h3>Hasta: <u><?php echo $fecha_fin;?></u></h3>
+			</td>
+		</tr>
+	</table>
+
+
+
+<p><?php echo $tabla;?></p>
+
+</body>
