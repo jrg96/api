@@ -75,10 +75,12 @@
                                         <td>{$usuario.id_usuario}</td>
                                         <td>{$usuario.nombre_usuario}</td>
                                         <td>
-										{if $usuario.tipo eq 'estrategico'}
+										{if $usuario.tipo_usuario eq 'estrategico'}
 										Usuario Estratégico
-										{elseif $usuario.tipo eq 'tactico'}
+										{elseif $usuario.tipo_usuario eq 'tactico'}
 										Usuario táctico
+										{elseif $usuario.tipo_usuario eq 'abogado'}
+										Usuario abogado
 										{else}
 										Administrador
 										{/if}
