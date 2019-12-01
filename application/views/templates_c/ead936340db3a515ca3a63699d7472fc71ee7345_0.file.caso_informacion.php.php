@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2019-11-30 13:47:59
+/* Smarty version 3.1.32, created on 2019-12-01 23:20:15
   from 'C:\xampp3\htdocs\api\application\views\templates\caso_informacion.php' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5de264ffa16931_40594398',
+  'unifunc' => 'content_5de43c9fd3acb4_11122247',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ead936340db3a515ca3a63699d7472fc71ee7345' => 
     array (
       0 => 'C:\\xampp3\\htdocs\\api\\application\\views\\templates\\caso_informacion.php',
-      1 => 1575118074,
+      1 => 1575238767,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:navbar.php' => 1,
   ),
 ),false)) {
-function content_5de264ffa16931_40594398 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5de43c9fd3acb4_11122247 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 
@@ -203,7 +203,9 @@ foreach ($_from as $_smarty_tpl->tpl_vars['pago']->value) {
 ">
 													<i class="fa fa-pencil"></i>
 												</a>
-												<a class="btn btn-primary" role="button" href="/api/index.php/tipocasoinformacion/index/<?php echo $_smarty_tpl->tpl_vars['usuario']->value['id_tipo_caso_juridico'];?>
+												<a class="btn btn-primary" role="button" href="/api/index.php/pagoinformacion/index/<?php echo $_smarty_tpl->tpl_vars['id_datos_cliente']->value;?>
+/<?php echo $_smarty_tpl->tpl_vars['id_caso_juridico']->value;?>
+/<?php echo $_smarty_tpl->tpl_vars['pago']->value['id_pago_caso'];?>
 ">
 													<i class="fa fa-info"></i>
 												</a>

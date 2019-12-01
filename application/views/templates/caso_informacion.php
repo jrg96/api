@@ -150,7 +150,7 @@
 												<a class="btn btn-success" role="button" href="/api/index.php/pagomodificar/index/{$id_datos_cliente}/{$id_caso_juridico}/{$pago.id_pago_caso}">
 													<i class="fa fa-pencil"></i>
 												</a>
-												<a class="btn btn-primary" role="button" href="/api/index.php/tipocasoinformacion/index/{$usuario.id_tipo_caso_juridico}">
+												<a class="btn btn-primary" role="button" href="/api/index.php/pagoinformacion/index/{$id_datos_cliente}/{$id_caso_juridico}/{$pago.id_pago_caso}">
 													<i class="fa fa-info"></i>
 												</a>
 												<a class="btn btn-danger" role="button" href="/api/index.php/pagoeliminar/index/{$id_datos_cliente}/{$id_caso_juridico}/{$pago.id_pago_caso}">
