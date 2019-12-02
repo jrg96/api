@@ -20,7 +20,7 @@ $(document).ready(function () {
 		$('#cuerpo_informe').show();
 		$('#botones_imprimir_informe').show();
 		
-		$.post( '/api/index.php/operativo3/post_informe', 
+		$.post( '/api/index.php/operativo1/post_informe', 
 				{ 
 					fecha_fin: $('#fecha_fin').val(),
 					id_datos_cliente: $('#id_datos_cliente').val()

@@ -1,6 +1,6 @@
 CREATE TABLE tbl_usuario(
     id_usuario INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-	nombre_usuario VARCHAR(50) NOT NULL,
+	nombre_usuario VARCHAR(50) NOT NULL UNIQUE,
 	password VARCHAR(128) NOT NULL,
 	tipo_usuario VARCHAR(20) NOT NULL,
 	estado VARCHAR(20) NOT NULL,
